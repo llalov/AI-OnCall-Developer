@@ -1,0 +1,6 @@
+- Stack: .NET 10, C#. Solution: OnCallDeveloper.slnx.
+- Code in src/, tests in tests/, docs in docs/. Project names: OnCallDeveloper.<Component>.
+- Work on one feature from feature_list.json at a time; don't start the next until it's verified.
+- Never commit secrets. API keys go in dotnet user-secrets.
+- Flag security-critical code (permissions, validation, approvals, masking) for human review.
+- At the end of each session, update progress.md and the feature's status.
