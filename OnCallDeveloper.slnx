@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OnCallDeveloper.Playground/OnCallDeveloper.Playground.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
