@@ -6,3 +6,5 @@ Built in .NET to learn agentic AI and AI security hands-on: MCP tools, RAG over 
 human-in-the-loop actions, evals and red-teaming.
 
 ![Architecture](docs/architecture/architecture-overview.svg)
+
+How the test environment runs: [Aspire, Docker and eShop](docs/notes/aspire-docker-otel.md)
