@@ -1,0 +1,3 @@
+[submodule "external/eshop"]
+	path = external/eshop
+	url = https://github.com/dotnet/eShop.git
