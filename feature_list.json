@@ -1,0 +1,50 @@
+[
+  {
+    "id": "W0-1",
+    "feature": "Repo skeleton: folders, README with diagram, AGENTS.md",
+    "verify": "README shows the architecture diagram on GitHub",
+    "status": "done"
+  },
+  {
+    "id": "W0-2",
+    "feature": "Anthropic API key in user-secrets, first API call",
+    "verify": "Playground prints an answer and token counts; git shows no secrets",
+    "status": "done"
+  },
+  {
+    "id": "W0-3",
+    "feature": "eShop running on Aspire as a submodule",
+    "verify": "aspire run starts; an order's trace is visible in the dashboard",
+    "status": "done"
+  },
+  {
+    "id": "W0-4",
+    "feature": "init.sh environment health check",
+    "verify": "Script reports .NET 10, Docker running, eShop submodule present",
+    "status": "todo"
+  },
+  {
+    "id": "W0-5",
+    "feature": "Market research: skills from 15 job ads",
+    "verify": "docs/architecture/market-skills.md lists the repeated skills",
+    "status": "todo"
+  },
+  {
+    "id": "W1-1",
+    "feature": "Send an eShop log snippet to the model, get a diagnosis",
+    "verify": "Playground prints a diagnosis for a real error log",
+    "status": "todo"
+  },
+  {
+    "id": "W1-2",
+    "feature": "Diagnosis returned as JSON and parsed into a C# record",
+    "verify": "Fields service, error, likelyCause, confidence are filled; broken JSON or stop_reason=max_tokens is handled",
+    "status": "todo"
+  },
+  {
+    "id": "W1-3",
+    "feature": "Token and cost logging per call, cheap vs strong model compared",
+    "verify": "Each call prints tokens and cost; comparison noted in progress.md",
+    "status": "todo"
+  }
+]
